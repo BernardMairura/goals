@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GoalComponent } from './components/goal/goal.component';
+import { GoalDetailComponent } from './components/goal-detail/goal-detail.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GoalComponent,
+    GoalDetailComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
